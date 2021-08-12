@@ -104,19 +104,14 @@
                 false,
                 false
             ],
-            "maxThrust":50.0
+            "maxThrust": 50.0
         },
-        "servos":
-        {
+        "servos": {
             "speed": 0.03
         }
     },
     "regulator": {
-        "Qmatrix":
-        {
-
-        },
-        "Rmatrix":
-        {}
+        "Qmatrix": {},
+        "Rmatrix": {}
     }
 }
