@@ -70,7 +70,7 @@
                     0.0
                 ]
             ],
-            "rotation": [
+            "rotations": [
                 [
                     0.0,
                     0.0,
@@ -108,6 +108,46 @@
         },
         "servos": {
             "speed": 0.03
+        },
+        "cameras": {
+            "positions": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "rotations": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "rotatable": [
+                false,
+                false
+            ],
+            "stereoscopic": [
+                false,
+                false
+            ],
+            "optical": {
+                "fov": [
+                    90.0,
+                    90.0
+                ]
+            }
         }
     },
     "regulator": {
