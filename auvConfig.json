@@ -135,5 +135,51 @@
     "regulator": {
         "Qmatrix": {},
         "Rmatrix": {}
+    },
+    "ROS":
+    {
+        "rate": 100,
+        "ROSTopics": {
+            "AUVInternalSystem": {
+                "Camera": {},
+                "Position": 
+                [
+                    {
+                        "globalEstimatedPosition": {
+                            "type": "geometry_msgs/Twist",
+                            "interestedNodes": [
+                                "MainLogic",
+                                "PostitioningSLAM"
+                            ]
+                        }
+                    }
+                ],
+                    
+    
+                "Torpedo": [
+                    {
+                        "launchLeft": {
+                            "type": "std_msgs/bool",
+                            "interestedNodes": [
+                                "MainLogic",
+                                "TorpedoLaunch"
+                            ]
+                        }
+                    },
+                    {
+                        "launchRight": {
+                            "type": "std_msgs/bool",
+                            "interestedNodes": [
+                                "MainLogic",
+                                "TorpedoLaunch"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "Debug": {}
+        },
+        "ROSServices": {},
+        "ROSMessageCode": {}
     }
 }
