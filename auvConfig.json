@@ -187,7 +187,7 @@
                     194,
                     89
                 ],
-                "port": {}
+                "port": 49995
             },
             "jetson": {
                 "IPAdress": [
@@ -196,7 +196,7 @@
                     194,
                     90
                 ],
-                "port": {}
+                "port": 50000
             },
             "microcontroller": {
                 "IPAdress": [
