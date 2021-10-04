@@ -136,14 +136,12 @@
         "Qmatrix": {},
         "Rmatrix": {}
     },
-    "ROS":
-    {
+    "ROS": {
         "rate": 100,
         "ROSTopics": {
             "AUVInternalSystem": {
                 "Camera": {},
-                "Position": 
-                [
+                "Position": [
                     {
                         "globalEstimatedPosition": {
                             "type": "geometry_msgs/Twist",
@@ -154,8 +152,6 @@
                         }
                     }
                 ],
-                    
-    
                 "Torpedo": [
                     {
                         "launchLeft": {
@@ -182,11 +178,44 @@
         "ROSServices": {},
         "ROSMessageCode": {}
     },
-    "network":
-    {
-        "devPCIPAdress": [192, 168, 0, 65],
-        "jetsonIPAdress": [192, 168, 0, 66],
-        "microcontrollerIPAdress": [192,168, 0, 67],
-        "DVLIPAdress": [192,168, 0, 68]
+    "network": {
+        "devices": {
+            "devPC": {
+                "IPAdress": [
+                    192,
+                    168,
+                    194,
+                    89
+                ],
+                "port": {}
+            },
+            "jetson": {
+                "IPAdress": [
+                    192,
+                    168,
+                    194,
+                    90
+                ],
+                "port": {}
+            },
+            "microcontroller": {
+                "IPAdress": [
+                    192,
+                    168,
+                    194,
+                    91
+                ],
+                "port": {}
+            },
+            "DVL": {
+                "IPAdress": [
+                    192,
+                    168,
+                    194,
+                    95
+                ],
+                "port": 16171
+            }
+        }
     }
 }
