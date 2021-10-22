@@ -41,6 +41,14 @@
                 "Kpp": -1.55,
                 "Mqq": -1.55,
                 "Nrr": -1.55
+            },
+            "addedMass": {
+                "Xua": 0.0,
+                "Yva": 0.0,
+                "Zwa": 0.0,
+                "Kpa": 0.0,
+                "Mqa": 0.0,
+                "Nra": 0.0
             }
         },
         "thrusters": {
