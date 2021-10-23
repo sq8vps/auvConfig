@@ -163,7 +163,8 @@
             1.0,
             1.0,
             1.0
-        ]
+        ],
+        "regulatorWorkingFrequency": 10
     },
     "ROS": {
         "rate": 100,
