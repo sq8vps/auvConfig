@@ -3,8 +3,9 @@
 
 enum Command
 {
+    /* one word = float = 4B */
     /* simple heartbeat for both sides */
-    HEARTBEAT = 0, // 1B payload, OK response
+    HEARTBEAT = 0, // 1 word payload, OK response
 
     /* emergency commands */
     EMERGENCY_STOP_ALL_THRUSTERS = 1,
@@ -14,13 +15,19 @@ enum Command
     RESPREQ_SEND_BACK_HEALTH_CHECK = 20,
 
     /* messages which are respones by themselves */
-    RESP_HEALTH_CHECK = 60, // payload 1B, short response OK/NOT OK
+    RESP_HEALTH_CHECK = 60,    // 1 word payload, short response OK/NOT OK
     RESP_PRECISE_HEALTH_CHECK, // longer payload with codes of hardware devices that are not working
 
     /* messages where the response is not required */
     NORESPREQ_START_SENDING_SENSOR_VALUES = 100, // no payload
-    NORESPREQ_SET_THRUSTERS, // 5 * 4B word payload of values for thrusters
-    NORESPREQ_SET_SERVOS // 2 * 4B payload
+    NORESPREQ_SET_THRUSTERS,                     // 5 words payload of values for thrusters
+    NORESPREQ_SET_SERVOS,                        // 2 words payload
+
+    /* orders from devPC */
+    DEVPC_SET_THRUSTERS = 245,  // 5 words payload
+    DEVPC_SET_SERVOS,           // 2 words payload
+    DEVPC_SET_GLOBAL_POSITION,  // 6 word payload
+    DEVPC_SET_RELATIVE_POSITION // 6 word payload
 };
 
 enum ShortPayloads
