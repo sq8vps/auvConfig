@@ -18,7 +18,9 @@ enum Command
     RESP_PRECISE_HEALTH_CHECK, // longer payload with codes of hardware devices that are not working
 
     /* messages where the response is not required */
-    NORESPREQ_START_SENDING_SENSOR_VALUES = 100
+    NORESPREQ_START_SENDING_SENSOR_VALUES = 100, // no payload
+    NORESPREQ_SET_THRUSTERS, // 5 * 4B word payload of values for thrusters
+    NORESPREQ_SET_SERVOS // 2 * 4B payload
 };
 
 enum ShortPayloads
