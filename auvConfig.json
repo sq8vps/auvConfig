@@ -169,7 +169,8 @@
     },
     "ROS": {
         "rate": 100,
-        "ROSMessageCode": {}
+        "healthReportRate": 2,
+        "healthCheckRate": 1
     },
     "network": {
         "devices": {
