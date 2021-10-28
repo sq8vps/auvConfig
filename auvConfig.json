@@ -168,9 +168,10 @@
         "regulatorWorkingFrequency": 10
     },
     "ROS": {
-        "rate": 100,
+        "debugRate": 1,
         "healthReportRate": 2,
-        "healthCheckRate": 1
+        "healthCheckRate": 1,
+        "rate": 100
     },
     "network": {
         "devices": {
