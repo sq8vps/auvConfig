@@ -95,8 +95,8 @@
                 ]
             ],
             "azimuthal": [
-                false,
-                false,
+                true,
+                true,
                 false,
                 false,
                 false
@@ -131,7 +131,7 @@
                 false
             ],
             "stereoscopic": [
-                false,
+                true,
                 false
             ],
             "optical": {
