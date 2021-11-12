@@ -165,7 +165,22 @@
             1.0,
             1.0
         ],
-        "regulatorWorkingFrequency": 10
+        "regulatorWorkingFrequency": 10,
+        "penalizers": {
+            "Omega": [
+                1.0,
+                1.0
+            ],
+            "Q": [
+                1000.0,
+                1000.0,
+                1000.0
+            ],
+            "W": [
+                300.0,
+                300.0
+            ]
+        }
     },
     "ROS": {
         "debugRate": 1,
