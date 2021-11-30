@@ -106,36 +106,36 @@
         },
         "servos": {
             "angleSpeedPerSecond": 0.03
-        },
-        "cameras": {
-            "positionsAndRotations": [
-                [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ],
-                [
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0,
-                    0.0
-                ]
+        }
+    },
+    "cameras": {
+        "positionsAndRotations": [
+            [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
             ],
-            "stereoscopic": [
-                true,
-                false
-            ],
-            "optical": {
-                "fov": [
-                    90.0,
-                    90.0
-                ]
-            }
+            [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        ],
+        "stereoscopic": [
+            true,
+            false
+        ],
+        "optical": {
+            "fov": [
+                90.0,
+                90.0
+            ]
         }
     },
     "regulator": {
