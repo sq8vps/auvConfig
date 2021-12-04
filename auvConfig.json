@@ -101,6 +101,20 @@
                 false,
                 false
             ],
+            "azimuthalThrustersDimensionsInfluence": [
+                [
+                    "x",
+                    "z",
+                    "roll",
+                    "yaw"
+                ],
+                [
+                    "x",
+                    "z",
+                    "roll",
+                    "yaw"
+                ]
+            ],
             "maxThrust": 50.0,
             "deltaUPerSecond": 12.5
         },
