@@ -3,7 +3,7 @@
 
 enum Command
 {
-    /* one word = float = 4B */
+    /* payload - one word = uint16_t = 2B */
     /* simple heartbeat for both sides */
     HEARTBEAT = 0, // 1 word payload, OK response
 

@@ -115,11 +115,49 @@
                     "yaw"
                 ]
             ],
+            "azimuthalThrustersDimensionsMath": {
+                "basic": [
+                    [
+                        "-sin",
+                        "0",
+                        "-cos",
+                        "-cosy",
+                        "-sinz - -cosx",
+                        "- -siny"
+                    ],
+                    [
+                        "-sin",
+                        "0",
+                        "-cos",
+                        "-cosy",
+                        "-sinz - -cosx",
+                        "- -siny"
+                    ]
+                ],
+                "derivative": [
+                    [
+                        "-cos",
+                        "0",
+                        "sin",
+                        "siny",
+                        "-cosz - sinx",
+                        "- -cosy"
+                    ],
+                    [
+                        "-cos",
+                        "0",
+                        "sin",
+                        "siny",
+                        "-cosz - sinx",
+                        "- -cosy"
+                    ]
+                ]
+            },
             "maxThrust": 50.0,
             "deltaUPerSecond": 12.5
         },
         "servos": {
-            "angleSpeedPerSecond": 0.03
+            "angleSpeedPerSecond": 3.0
         }
     },
     "cameras": {
