@@ -345,16 +345,8 @@
         }
     },
     "cameras": {
-        "positionsAndRotations": [
-            [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-            ],
-            [
+        "zed": {
+            "positionsAndRotations": [
                 0.0,
                 0.0,
                 0.0,
@@ -362,17 +354,20 @@
                 0.0,
                 0.0
             ]
-        ],
-        "stereoscopic": [
-            true,
-            false
-        ],
-        "optical": {
-            "fov": [
-                90.0,
-                90.0
+        },
+        "additionalCamera": {
+            "positionsAndRotations": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
             ]
         }
+    },
+    "hydrophones": {
+        "sampleRate": 192000
     },
     "regulator": {
         "QMatrix": [
