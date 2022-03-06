@@ -422,8 +422,8 @@
     },
     "ROS": {
         "debugRate": 1,
-        "healthReportRate": 5,
-        "healthCheckRate": 2,
+        "healthReportRate": 2,
+        "healthCheckRate": 1,
         "rate": 100
     },
     "network": {
