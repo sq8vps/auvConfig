@@ -20,8 +20,9 @@ enum Command
 
     /* messages where the response is not required */
     NORESPREQ_START_SENDING_SENSOR_VALUES = 100, // no payload
-    NORESPREQ_SET_THRUSTERS,                     // 5 words payload of values for thrusters
-    NORESPREQ_SET_SERVOS,                        // 2 words payload
+    NORESPREQ_SET_THRUSTERS,                     // 5 words payload of values for thrusters [0,2000]
+    NORESPREQ_SET_SERVOS,                        // 2 words payload - first number of servo, second - value [0,100]
+    NORESPREQ_SET_AZIMUTHAL_SERVOS,              // 2 words payload - value servo 0, value servo 1 - both [0,100]
 
     /* orders from devPC */
     DEVPC_SET_THRUSTERS = 245,  // 5 words payload
