@@ -28,6 +28,8 @@ enum Command
     NORESPREQ_SET_SERVOS,                           // 2 words payload - first number of servo, second - value [0,100]
     NORESPREQ_SET_AZIMUTHAL_SERVOS,                 // 2 words payload - value servo 0, value servo 1 - both [0,100]
     NORESPREQ_PRESSURE_SENSOR_VALUE_REGULAR_REPORT, // 2 words payload - pressure value in uint32
+    NORESPREQ_CLOSE_GRIPPER,                        // no payload
+    NORESPREQ_OPEN_GRIPPER,                         // no payload
 
     /* orders from devPC */
     DEVPC_SET_THRUSTERS = 245,  // 5 words payload
