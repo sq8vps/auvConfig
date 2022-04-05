@@ -12,8 +12,8 @@
                 "Iyz": 0.0,
                 "Izy": 0.0
             },
-            "mass": 19.0,
-            "buoyancy": 200.0,
+            "mass": 350.0,
+            "buoyancy": 360.0,
             "centerOfGravity": [
                 0.0,
                 0.0,
