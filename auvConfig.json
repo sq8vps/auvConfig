@@ -17,12 +17,12 @@
             "centerOfGravity": [
                 0.0,
                 0.0,
-                0.02
+                -0.02
             ],
             "centerOfBuoyancy": [
                 0.0,
                 0.0,
-                0.02
+                -0.12
             ]
         },
         "dragCoefficients": {
