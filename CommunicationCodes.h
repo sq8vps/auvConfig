@@ -30,7 +30,9 @@ enum Command
     NORESPREQ_PRESSURE_SENSOR_VALUE_REGULAR_REPORT, // 2 words payload - pressure value in uint32
     NORESPREQ_CLOSE_GRIPPER,                        // no payload
     NORESPREQ_OPEN_GRIPPER,                         // no payload
-    NORESPREQ_LAUNCH_TORPEDO,                       // 1 word payload - number of torpedo to launch {1,2}
+    NORESPREQ_SET_GRIPPER_HORIZONTAL,               // 1 word payload - value [0,100]
+    NORESPREQ_SET_GRIPPER_VERTICAL,                 // 1 word payload - value [0,100]
+    NORESPREQ_LAUNCH_TORPEDO,                       // 1 word payload - number of torpedo to launch {1 - left, 2 - right}
 
     /* orders from devPC */
     DEVPC_SET_THRUSTERS = 245,  // 5 words payload
